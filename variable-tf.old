@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default = "ca-central-1"
+  default = "eu-north-1"
 }
 
 variable "bucket_name" {
@@ -14,7 +14,7 @@ variable "dynamodb_name" {
     default = "dynamodblocktable"
 }
 variable "profile" {
-  default = "NK_AWS"
+  default = "parvinder0303"
 }
 
 variable "ec2_ami" {
@@ -42,7 +42,7 @@ variable "product" {
   default = "mgmt-load"
 }
 variable "vpc_id" {
-  default = "vpc-0fdf778d69038751e"
+  default = "vpc-0116d6fd4a36821cc"
 }
 variable "subnets" {
    default = ["subnet-03ddbe0583ca7bd8e"]
