@@ -19,7 +19,7 @@ provider "aws" {
 resource "aws_instance" "myec2" {
    ami = "ami-09a9858973b288bdd"
    instance_type = "t3.medium"
-   key_name = "27Feb-Public"
+   key_name = "ssh-SG-EC2-27Feb"
    tags = {
       Name = "Example"
    }
