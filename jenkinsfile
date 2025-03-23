@@ -5,6 +5,8 @@ pipeline {
     environment {
        AWS_ACCESS_KEY_ID     = credentials('cdc6c0b7-b471-4e38-a321-6d56b617ad13')
        AWS_SECRET_ACCESS_KEY = credentials('5f5cd031-c31d-4c0c-9083-6207e849b7bf')
+        VPC_ID= "vpc-0116d6fd4a36821cc"
+        SUBNET_ID="subnet-083c1f591fccde092"
     }
 
     stages {
