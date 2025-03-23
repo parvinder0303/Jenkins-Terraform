@@ -19,7 +19,6 @@ provider "aws" {
 resource "aws_instance" "myec2" {
    ami = "ami-09a9858973b288bdd"
    instance_type = "t3.medium"
-    VPC_ID = "vpc-0116d6fd4a36821cc"
    key_name = "ssh-SG-EC2-27Feb"
    tags = {
       Name = "Example"
