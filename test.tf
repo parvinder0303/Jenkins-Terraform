@@ -14,6 +14,7 @@ terraform {
 
 provider "aws" {
   region     = "eu-north-1"
+  vpc_id = "vpc-0116d6fd4a36821cc"
 }
 
 resource "aws_instance" "myec2" {
